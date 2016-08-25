@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Scriptable Headers",
+  "description": "Allows request headers to be set via javascript.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "nativeMessaging"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
