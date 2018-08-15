@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Scriptable Headers",
-  "description": "Allows request headers to be set via javascript.",
+  "description": "Allows request headers to be set without UI interaction.",
   "version": "1.0",
 
   "browser_action": {
